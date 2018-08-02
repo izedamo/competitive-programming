@@ -9,6 +9,7 @@ t = int(stdin.readline())
 for i in range(t):
     (n, m) = (int(x) for x in stdin.readline().split())
     zmbs = [int(x) for x in stdin.readline().split()]
+    diff = [z[i]-z[i-1] for i in range(1:len(zmbs))] # difference array
     lrk = []
     for j in range(m):
         l, r, k = map(int, stdin.readline().split())
