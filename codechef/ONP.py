@@ -19,7 +19,7 @@ def rpn(ex):
 prty = {'^': 3, '/': 2, '*': 2, '+': 1, '-': 1}
 #print(prty['/'])
 t = int(input().strip())
-exs = []
+#exs = []
 for i in range(t):
     ex = input().strip()
     print(ex[1:-1])
