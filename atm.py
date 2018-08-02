@@ -1,0 +1,5 @@
+(wa, ab) = input().strip().split()
+wa = int(wa)
+ab = float(ab)
+if wa % 5 == 0 and wa+0.5 < ab: print(round(ab-wa-0.5,2))
+else: print(round(ab,2))
