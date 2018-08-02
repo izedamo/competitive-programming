@@ -1,6 +1,7 @@
 # finish zombies one by one, use greedy approach and difference array.
 
 #import heapq <- use doing priority queue
+#TODO: difference array.
 
 from sys import stdin
 
